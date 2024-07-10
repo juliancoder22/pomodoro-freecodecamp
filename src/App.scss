@@ -1,0 +1,71 @@
+$primary-color: #333;
+$secondary-color: #555;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: $primary-color;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 2.5em;
+  margin: 1em 0;
+}
+
+.length-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0;
+
+  #break-label,
+  #session-label {
+    margin-right: 1em;
+  }
+
+  .btn-level {
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    margin: 0 0.5em;
+
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+}
+
+.timer {
+  text-align: center;
+  font-size: 3em;
+  margin: 1em 0;
+
+  .timer-wrapper {
+    display: inline-block;
+    background-color: $primary-color;
+    color: white;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+  }
+}
+
+.timer-control {
+  text-align: center;
+  margin: 1em 0;
+
+  button {
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+}
